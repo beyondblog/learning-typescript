@@ -1,10 +1,11 @@
 {
     "compilerOptions": {
+        "target": "ES5",
         "module": "commonjs",
-        "noImplicitAny": true,
+        "noImplicitAny": false,
         "removeComments": false,
-        "preserveConstEnums": true,
-        "out": "./build/tsc.js",
-        "sourceMap": true
+        "sourceMap": false,    
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
     }
 }
