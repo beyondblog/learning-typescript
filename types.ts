@@ -17,4 +17,15 @@ add({ name: "beyond"}); // Ok
 add( {name: "beyond", favoriteColor: "blue"}); //Ok
 
 
+//emun types
+const enum Operator {
+    ADD,
+    DIV,
+    MUL,
+    SUB
+}
+
+function calculator(op: Operator, a:number,b: number){
+    console.log("operator is :" + op);
+}
 
